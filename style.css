@@ -1,0 +1,89 @@
+* {
+    /* padding: 0px 20px; */
+    margin: 20px;
+  }
+  
+  body {
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+  }
+  .h1 {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: double;
+    font-size: 10vh;
+    /* color: #ac004f; */
+    background: -webkit-linear-gradient(pink, darkblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  #image1 {
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    width: 15vw;
+    height: 15vw;
+  }
+  
+  #image2 {
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    width: 15vw;
+    height: 15vw;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0vh 20vw;
+  }
+  
+  .btn2 {
+    font-size: 6vh;
+    font-weight: semibold;
+    border: none;
+    border-radius: 4vw;
+    background: -webkit-linear-gradient(pink, darkblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  
+  .score {
+    display: flex;
+    font-size: 6vh;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(pink, darkblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+
+#finalresultiut{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}  
+#finalresult{
+    background: -webkit-linear-gradient(pink, darkblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vh;
+  }

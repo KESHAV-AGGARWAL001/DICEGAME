@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="h1">Welcome to Dice Game!!</h1>
+
+    <div class="center">
+      <img src="image2.jpg" alt="" id="image1" onclick="firstclick()" />
+      <img src="image3.jpg" alt="" id="image2" onclick="secondclick()" />
+    </div>
+    <div class="score">YOUR SCORE:<span id="actualsum">0</span></div>
+    <div class="btng">
+      <button class="btn2" onclick="start()">START</button>
+      <button class="btn2" onclick="reset()">RESET</button>
+    </div>
+    <div id="finalresultiut">
+      <h1 id="finalresult"></h1>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
