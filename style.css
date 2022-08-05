@@ -9,12 +9,13 @@
     border: none;
   }
   .h1 {
-    margin: 20px auto;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: double;
-    font-size: 10vh;
+    font-size: 8vh;
     /* color: #ac004f; */
     background: -webkit-linear-gradient(pink, darkblue);
     -webkit-background-clip: text;
